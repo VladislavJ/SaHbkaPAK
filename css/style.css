@@ -60,7 +60,7 @@ body{
     font-weight: 300;
     border-bottom: 1px solid #797A7E;
     text-decoration: none;
-    font-weight: lighter !important;
+    font-weight: 300 !important;
 }
 
 .main_container h1{
