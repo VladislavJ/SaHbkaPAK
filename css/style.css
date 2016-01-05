@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 .wrapper{
     max-width: 1920px;
     height: 190px;
@@ -38,7 +39,6 @@ body{
     max-width: 1025px;
     margin: 0 auto;
     overflow: hidden;
-
 }
 
 .main_menu{
@@ -47,7 +47,10 @@ body{
 
 .main_item li{
     display: inline-block;
-    padding: 12px 14px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
 .main_item li:hover{
@@ -60,7 +63,7 @@ body{
     font-weight: 300;
     border-bottom: 1px solid #797A7E;
     text-decoration: none;
-    font-weight: 300 !important;
+    font-weight: 300;
 }
 
 .main_container h1{
@@ -510,6 +513,7 @@ width: 100%;
 
 #modal_form input, #modal_form textarea, #modal_form label{
     display: inline-block;
+    box-sizing: border-box;
 }
 
 #modal_form label{
@@ -530,9 +534,10 @@ width: 100%;
 
 #modal_form textarea{
     height: 85px;
+    width: 274px;
 }
 .content_form{
-    width: 405px;
+    width: 410px;
 }
 
 #modal_form #modal_close {
@@ -567,7 +572,7 @@ width: 100%;
 
 .group_button{
     width: 405px;
-    margin-left: 127px;
+    margin-left: 136px;
 }
 .form_button{
     width: 112px;

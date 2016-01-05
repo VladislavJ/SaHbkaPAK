@@ -5,7 +5,7 @@ body{
 .wrapper{
     max-width: 1920px;
     height: 190px;
-    z-index: 1111111;
+    z-index: 10;
 }
 
 .owl-theme .owl-controls {
@@ -47,7 +47,10 @@ body{
 
 .main_item li{
     display: inline-block;
-    padding: 12px 14px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
 .main_item li:hover{
@@ -60,7 +63,7 @@ body{
     font-weight: 300;
     border-bottom: 1px solid #797A7E;
     text-decoration: none;
-    font-weight: 300 !important;
+    font-weight: 300;
 }
 
 .main_container.content_information{
@@ -323,4 +326,111 @@ width: 100%;
 
 .breadcrumbs{
     margin-top: 25px;
+}
+
+#modal_form {
+    width: 460px; 
+    height: 320px; 
+    background: #fff;
+    position: fixed;
+    top: 45%; 
+    left: 50%; 
+    margin-top: -150px;
+    margin-left: -150px; 
+    display: none; 
+    opacity: 0; 
+    z-index: 20; 
+}
+#modal_form h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 32px;
+}
+
+.group{
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+#modal_form input, #modal_form textarea, #modal_form label{
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#modal_form label{
+    float: left;
+    font-size: 16px;
+    color: #000;
+    margin-left: 25px;
+}
+#modal_form input, #modal_form textarea{
+    margin-left: 10px;
+    width: 274px;
+    float: right;
+    resize: none;
+    border: 1px solid #d4d5d6;
+    font-size: 16px;
+    text-indent: 8px;
+}
+
+#modal_form textarea{
+    height: 85px;
+    width: 274px;
+}
+.content_form{
+    width: 410px;
+}
+
+#modal_form #modal_close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+#overlay {
+    z-index:3;
+    position:fixed; 
+    background-color:#000; 
+    opacity:0.8; 
+    -moz-opacity:0.8;
+    filter:alpha(opacity=80);
+    width:100%; 
+    height:100%; 
+    top:0; 
+    left:0;
+    cursor:pointer;
+    display:none; 
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.group_button{
+    width: 405px;
+    margin-left: 136px;
+}
+.form_button{
+    width: 112px;
+    height: 32px;
+    background: #BE4040;
+    color: #FEFEFE;
+    font-size: 14px;
+    display: block;
+    border-bottom: 3px solid #8B3838;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form_button:hover{
+    background: #A73838
 }

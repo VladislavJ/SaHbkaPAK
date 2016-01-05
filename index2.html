@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Барс-Дон</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700&subset=cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -167,9 +167,34 @@
     </footer>
 	<!-- FOOTER END -->
 
+	<!-- POPUP BEGIN -->
+	<div class="popup">
+		 <div id="modal_form"><!-- window itself --> 
+		      <span id="modal_close"><img src="img/ex.png" alt=""></span> <!-- button close --> 
+		      <h1>Заказать звонок</h1>
+		      <div  class="content_form">
+		      	  <div class="group clearfix">
+			      	<label for="input1">Ваше имя:</label>
+			      	<input id="input1" type="text" placeholder="Маша">
+			      </div>
+			      <div class="group clearfix">
+			      	<label for="input2">Телефон:</label>
+			      	<input id="input2" type="text" placeholder="">
+			      </div>
+			      <div class="group clearfix">
+			      	<label for="massage">Сообщение:</label>
+			      	<textarea r id="massage"></textarea>
+			      </div>
+			      <div class="group_button">
+			      	<a class="form_button" href="#">Отправить</a>
+			      </div>
+		      </div>
+		</div>
+		<div id="overlay"></div><!-- background -->
+	</div>
+	<!-- POPUP END -->
 
-
-
+	<!-- Script link -->
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src='js/index.js'></script>
