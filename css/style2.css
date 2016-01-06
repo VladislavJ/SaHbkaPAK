@@ -185,7 +185,6 @@ body{
     line-height: 35px;
     padding-left: 14px;
     text-align: left;
-    margin-top: 20px;
 }
 
 .title_sidebar a{
@@ -230,9 +229,16 @@ body{
 .right_content_title{
     color: #000;
     font-size: 32px;
-    margin-top: 15px;
-    margin-bottom: 10px;
     font-weight: bold;
+}
+
+.right_title_position1{
+    margin-bottom: 12px;
+}
+
+.right_title_position2{
+    margin-bottom: 18px;
+    margin-top: 10px;
 }
 
 .right_content p{
@@ -247,6 +253,11 @@ body{
     margin-bottom: 20px;
     text-decoration: none;
     border-bottom: 1px solid #484d69;
+}
+
+.breadcrumbs{
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .breadcrumbs span{
@@ -322,10 +333,6 @@ width: 100%;
 .owl-carousel.owl-theme.owl-loaded{
     height: 190px;
     margin: 0 auto;
-}
-
-.breadcrumbs{
-    margin-top: 25px;
 }
 
 #modal_form {
