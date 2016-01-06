@@ -425,6 +425,7 @@ width: 100%;
     width: 405px;
     margin-left: 136px;
 }
+
 .form_button{
     width: 112px;
     height: 32px;
@@ -438,6 +439,15 @@ width: 100%;
     text-transform: uppercase;
     text-align: center;
 }
+
 .form_button:hover{
     background: #A73838
 }
+
+.footer_title{
+    display: block;
+    font-size: 13px;
+    color: #b2b2b2;
+    margin-top: 15px;
+}
+
