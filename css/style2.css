@@ -314,7 +314,7 @@ body{
     padding: 3px 0 0 2px;
 }
 
-.slide_1{
+.slide_protection{
 background: url("../img/slide_1.jpg") no-repeat scroll center 0px;
 position: absolute;
 display: block;
@@ -322,7 +322,7 @@ height: 190px;
 width: 100%;
 }
 
-.slide_2{
+.slide_video{
 background: url("../img/slide_2.jpg") no-repeat scroll center 0px;
 position: absolute;
 display: block;
